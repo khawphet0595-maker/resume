@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - ประวัติส่วนตัว</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            padding-top: 70px;
+            scroll-behavior: smooth;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #0d6efd;
+        }
+        .email-at-img {
+            height: 1.1em;
+            vertical-align: middle;
+        }
+        section {
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#about">My Resume</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">เกี่ยวกับฉัน</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">การศึกษา</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">ทักษะ (Skills)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+
+        <section id="about" class="text-center text-lg-start">
+            <div class="row align-items-center">
+                <div class="col-lg-3 text-center mb-3 mb-lg-0">
+                    <img src="ดาวน์โหลด (3).jpg" alt="Profile Picture" class="profile-img shadow">
+                </div>
+                <div class="col-lg-9">
+                    <h1 class="fw-bold text-primary">จิรพิพรรธ สอดสี</h1>
+                    
+                    <p class="fs-5 mb-1">สาขาวิชา <em>วิศวกรรมคอมพิวเตอร์</em></p>
+                    
+                    <p class="text-muted mb-3">
+                        คณะวิศวกรรมศาสตร์และเทคโนโลยี <br>
+                        <a href="http://pim.ac.th" target="_blank" class="text-decoration-none">สถาบันการจัดการปัญญาภิวัฒน์</a>
+                    </p>
+                   
+                    <p class="lead">
+                        นักศึกษาที่มีความมุ่งมั่นและสนใจในการพัฒนาซอฟต์แวร์และการวิเคราะห์ระบบ มีความกระตือรือร้นที่จะเรียนรู้เทคโนโลยีใหม่ๆ และพร้อมที่จะนำความรู้ความสามารถมาประยุกต์ใช้กับการทำงานจริงในสถานประกอบการ
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-4">
+
+        <section id="education">
+            <h2 class="fw-bold mb-4 text-primary"><i class="fas fa-graduation-cap me-2"></i>การศึกษา (Education)</h2>
+            <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">ปริญญาตรี - สถาบันการจัดการปัญญาภิวัฒน์ (PIM)</h5>
+                    <p class="card-text text-muted mb-1">คณะวิศวกรรมศาสตร์และเทคโนโลยี สาขาวิชาวิศวกรรมคอมพิวเตอร์</p>
+                    <p class="card-text"><small class="text-secondary">ปีการศึกษา 2023 - ปัจจุบัน</small></p>
+                </div>
+            </div>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">มัธยมศึกษาตอนปลาย - โรงเรียนตัวอย่างวิทยา</h5>
+                    <p class="card-text text-muted mb-1">สายการเรียน วิทยาศาสตร์-คณิตศาสตร์</p>
+                    <p class="card-text"><small class="text-secondary">ปีการศึกษา 2020 - 2022</small></p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-4">
+
+        <section id="skills">
+            <h2 class="fw-bold mb-4 text-primary"><i class="fas fa-code me-2"></i>ทักษะและความสามารถ (Skills)</h2>
+            
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow-sm p-3 border-0 bg-light">
+                        <div class="card-body">
+                            <i class="fab fa-html5 fa-3x text-danger mb-3"></i>
+                            <h5 class="card-title fw-bold">HTML & CSS</h5>
+                            <p class="card-text text-muted">ออกแบบและวางโครงสร้างเว็บไซต์แบบ Responsive</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow-sm p-3 border-0 bg-light">
+                        <div class="card-body">
+                            <i class="fab fa-bootstrap fa-3x text-purple mb-3" style="color: #6f42c1;"></i>
+                            <h5 class="card-title fw-bold">Bootstrap 5</h5>
+                            <p class="card-text text-muted">การใช้งาน Grid System และ Component ต่างๆ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow-sm p-3 border-0 bg-light">
+                        <div class="card-body">
+                            <i class="fab fa-python fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title fw-bold">Python</h5>
+                            <p class="card-text text-muted">พื้นฐานการเขียนโปรแกรมและการประมวลผลข้อมูล</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow-sm p-3 border-0 bg-light">
+                        <div class="card-body">
+                            <i class="fab fa-github fa-3x text-dark mb-3"></i>
+                            <h5 class="card-title fw-bold">Git & GitHub</h5>
+                            <p class="card-text text-muted">การจัดการ Source Code และ Version Control</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-4">
+
+        <section id="contact" class="mb-5">
+            <h2 class="fw-bold mb-4 text-primary"><i class="fas fa-envelope me-2"></i>ข้อมูลการติดต่อ (Contact)</h2>
+            <div class="card shadow-sm p-3">
+                <div class="card-body">
+                    <ol class="list-group list-group-numbered list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">อีเมลสถาบันฯ</div>
+                                <span>66xxxxxxx</span>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/At_sign.svg" alt="at" class="email-at-img">
+                                <span>pim.ac.th</span>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">เบอร์โทรศัพท์</div>
+                                08X-XXX-XXXX
+                            </div>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">ที่อยู่</div>
+                                ถนนแจ้งวัฒนะ ตำบลคลองเกลือ อำเภอปากเกร็ด นนทบุรี 11120
+                            </div>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">GitHub Profile</div>
+                                <a href="https://github.com" target="_blank">https://github.com/your-username</a>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 Resume - สถาบันการจัดการปัญญาภิวัฒน์</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
